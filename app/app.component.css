@@ -1,4 +1,31 @@
-:host {
+/* this is where the component styles live
+   this file pointed to in app.component.ts */
+h1 { color: white; 
+}
+.description {
+  font-style: italic;
+  color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :host {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100%;
@@ -27,4 +54,4 @@ section > header > h1 {
 }
 section > header .description {
   font-style: italic;
-}
+} */
