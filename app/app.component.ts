@@ -26,7 +26,21 @@ import { Component } from '@angular/core';
 styleUrls: ['app/app.component.css']
 })
 // the component needs to be applied to a class
-export class AppComponent {}
+export class AppComponent {
+  onMediaItemDelete(mediaItem) {
+    
+  }
+
+  firstMediaItem = {
+    id: 1,
+    name: "Firebug",
+    medium: "Series",
+    category: "Science Fiction",
+    year: 2010, 
+    watchedOn: 1294166565384,
+    isFavorite: false
+  };
+}
 
 
 
