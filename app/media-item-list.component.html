@@ -1,4 +1,34 @@
-<header 
+<section>
+  <mw-media-item *ngFor="let mediaItem of mediaItems"
+                 [mediaItem]="mediaItem"
+                 (delete)="onMediaItemDelete($event)"></mw-media-item>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <header 
     [ngClass]="{'medium-movies':medium === 'Movies', 'medium-series':medium === 'Series'}">
     <h2>{{medium}}</h2>
     <div>{{ mediaItems | categoryList }}</div>
@@ -14,4 +44,4 @@
   <a routerLink="/add">
     <img src="media/01.png" class="icon" />
   </a>
-</footer>
+</footer> -->
