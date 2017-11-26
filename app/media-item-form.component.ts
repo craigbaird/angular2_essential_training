@@ -18,7 +18,6 @@ export class MediaItemFormComponent {
       ])),
       category: new FormControl(''),
       year: new FormControl(''),
-
     });
   }
   onSubmit(mediaItem) {
